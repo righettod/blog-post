@@ -18,5 +18,15 @@ do
 	fi	
 	counter=$((counter + 1))
 done
+for p in $(ls presentations/*.pdf)
+do
+	check=$(file "$p" | grep -Fic "PDF document")
+	if [ $check -ne 1 ]
+	then
+		echo "[!] File '$p' is not a PDF file!"
+		exit 3
+	fi	
+	counter=$((counter + 1))
+done
 echo "[V] $counter files are OK."
 exit 0
