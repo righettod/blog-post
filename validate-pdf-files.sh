@@ -2,7 +2,7 @@
 # Ensure that PDF files are valid PDF.
 # Dependencies: apt install file pdfgrep
 counter=0
-for bp in $(ls files/*.pdf)
+for bp in $(ls blogposts/*.pdf)
 do
 	check=$(file "$bp" | grep -Fic "PDF document")
 	if [ $check -ne 1 ]
