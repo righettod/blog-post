@@ -4,7 +4,7 @@
 
 📋 This repository contains an PDF export of every blog posts I have written as well as presentation I have created:
 
-* Blog posts are stored in this [folder](files/).
+* Blog posts are stored in this [folder](blogposts/).
 * Presentations are stored in this [folder](presentations/).
 
 📦 It is a **backup copy** of [the online version](https://righettod.eu/other/).
