@@ -2,10 +2,10 @@
 
 [![Validate PDF Files](https://github.com/righettod/blog-post/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/righettod/blog-post/actions/workflows/validate.yml)
 
-📋 This repository contains an PDF export of every blog posts and presentation I have created:
+📋 This repository contains an PDF export of every blog posts and presentations I have created:
 
-* Blog posts are stored in this [folder](blogposts/).
-* Presentations are stored in this [folder](presentations/).
+* **Blog posts** are stored in this [folder](blogposts/).
+* **Presentations** are stored in this [folder](presentations/).
 
 📦 It is a **backup copy** of [the online version](https://righettod.eu/other/).
 
